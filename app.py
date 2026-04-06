@@ -30,7 +30,7 @@ RAW_DIR = os.path.join(BASE_DIR, "data")
 
 REQUIRED_EXCEL_FILES = (
     "Chile Dataset (CCSD).xlsx",
-    "Annual CO2 emissions.xlsx",
+    "Annual CO2 Emissions.xlsx",
     "CO2 Emission per-capita Dataset.xlsx",
     "Cumulative CO2 Emissions.xlsx",
     "Shared Annual CO2 emissions.xlsx",
