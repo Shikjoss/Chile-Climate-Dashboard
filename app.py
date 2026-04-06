@@ -2550,6 +2550,8 @@ def download_report_pdf(n, comp_countries, variables, name, enrol):
 # ══════════════════════════════════════════════════════════════════════
 #  RUN
 # ══════════════════════════════════════════════════════════════════════
+print("Dash app initialized successfully")
+print("Server object created successfully")
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8050))
     app.run(debug=False, host="0.0.0.0", port=port)
