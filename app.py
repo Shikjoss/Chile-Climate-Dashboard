@@ -96,7 +96,7 @@ def load_global(fname, metric_col, new_col):
     return df
 
 chile     = load_chile()
-g_annual  = load_global("Annual CO2 emissions.xlsx",           "Annual CO2 emissions",                                          "annual_co2")
+g_annual  = load_global("Annual CO2 Emissions.xlsx",           "Annual CO2 emissions",                                          "annual_co2")
 g_percap  = load_global("CO2 Emission per-capita Dataset.xlsx","CO2 Emissions per capita (t)",                                  "co2_pc")
 g_cumul   = load_global("Cumulative CO2 Emissions.xlsx",       "Cumulative CO2 emissions",                                      "cumulative_co2")
 g_shared  = load_global("Shared Annual CO2 emissions.xlsx",    "Share of global annual CO2 emissions",                          "share_global")
