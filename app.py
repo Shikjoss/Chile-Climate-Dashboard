@@ -1,3 +1,4 @@
+
 """
 ╔══════════════════════════════════════════════════════════════════════╗
 ║   CHILE CLIMATE INTELLIGENCE DASHBOARD                               ║
@@ -333,7 +334,7 @@ navbar = html.Div([
             html.Img(src=CHILE_FLAG_B64, style={"width":"36px","height":"24px","borderRadius":"3px"}),
             html.Div([
                 html.Span("CHILE ", style={"color":C["red"],"fontWeight":"900"}),
-                html.Span("CLIMATE", style={"color":C["text"]}),
+                html.Span("CLIMATE DASHBOARD", style={"color":C["text"]}),
             ], style={"fontFamily":"Cinzel, serif","fontSize":"15px","letterSpacing":"2px",
                       "marginLeft":"10px"}),
         ], style={"display":"flex","alignItems":"center"}),
